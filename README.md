@@ -16,6 +16,5 @@ Tutorial for python debugging with `ipdb`.
     - `mpirun -np <N> xterm -e <prog>` (old school - requires xterm)
     -  Can run with `tmux`. Please install https://github.com/wrs20/tmux-mpi. 
        ```bash
-       export TMUX_MPI_MODE=pane
-       $ tmux-mpi <N> <prog>       
+       $ TMUX_MPI_MODE=pane tmux-mpi <N> <prog>       
        ```
