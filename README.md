@@ -11,5 +11,9 @@ Tutorial for python debugging with `ipdb`.
    - https://github.com/learn-co-curriculum/python-p3-debugging-with-ipdb?tab=readme-ov-file
    - https://skillshats.com/blogs/debugging-made-easy-with-ipdb-the-python-debugger/
  3. Parallel runs - mpi4py.
-    - Best run with `xterm` or `tmux`. (see launch scripts)
-    - `mpirun -np <N> xterm -e <prog>` (old school)
+    - `mpirun -np <N> xterm -e <prog>` (old school - requires xterm)
+    -  Can run with `tmux`. Please install https://github.com/wrs20/tmux-mpi. 
+       ```bash
+       export TMUX_MPI_MODE=pane
+       $ tmux-mpi <N> <prog>       
+       ```
