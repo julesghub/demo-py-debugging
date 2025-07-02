@@ -4,8 +4,10 @@ Tutorial for python debugging with `ipdb`.
 
 `ipdb` is a python debugger, build upon the standard `pdb` python debugger. The 'i' bit adds helpful features, like code completion and pretty printing. 
 
- 1. `ipbd` install.
-   - `pip install ipdb`
+ 1. `ipbd` installation.
+     ```bash
+     pip install ipdb
+     ```
  2. Basic usage pattern.
    - `import ipdb; ipdb.set_trace()`
    - https://github.com/learn-co-curriculum/python-p3-debugging-with-ipdb?tab=readme-ov-file
